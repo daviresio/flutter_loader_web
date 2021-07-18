@@ -1,6 +1,9 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 void main() {
+  querySelector(".loading")?.remove();
   runApp(MyApp());
 }
 
